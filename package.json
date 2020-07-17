@@ -1,0 +1,27 @@
+{
+  "name": "bare-box",
+  "version": "1.0.0",
+  "description": "Truffle Box for a bare-minimum Truffle project (`truffle init`)",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.loans.js"
+  },
+  "dependencies": {
+    "mocha": "^8.0.1",
+    "chai": "^4.2.0",
+    "web3":"^1.2.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binny1024/bare-box.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binny1024/bare-box/issues"
+  },
+  "homepage": "https://github.com/binny1024/bare-box#readme"
+}
