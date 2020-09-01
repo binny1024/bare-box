@@ -10,9 +10,10 @@
     "test": "mocha test/test.loans.js"
   },
   "dependencies": {
-    "mocha": "^8.0.1",
+    "@truffle/hdwallet-provider": "^1.0.42",
     "chai": "^4.2.0",
-    "web3":"^1.2.9"
+    "mocha": "^8.0.1",
+    "web3": "^1.2.9"
   },
   "repository": {
     "type": "git",
