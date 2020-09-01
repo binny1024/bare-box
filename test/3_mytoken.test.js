@@ -8,8 +8,8 @@ contract("MyToken", async (accounts) => {
         const name = await instance.name.call();
         let symbol = await instance.symbol.call();
         let totalSupply = await instance.totalSupply.call();
-        assert.equal(name, "MyFirstToken", "contract deployed failed -- name incorrect!");
-        assert.equal(symbol, "MFT", "contract deployed failed -- symbol incorrect!");
+        assert.equal(name, "TigerToken2", "contract deployed failed -- name incorrect!");
+        assert.equal(symbol, "TT2", "contract deployed failed -- symbol incorrect!");
         assert.equal(totalSupply.valueOf(), 21000000 * 10 ** 8, "contract deployed failed -- totalSupply incorrect!");
     });
     
